@@ -11,7 +11,7 @@ import CrowdinSDK
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("title".cw_localized)
+            Text(NSLocalizedString("title", comment: "comment"))
                 .padding()
 
             Text("subtitle".cw_localized)

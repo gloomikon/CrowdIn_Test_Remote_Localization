@@ -1,0 +1,31 @@
+PODS:
+  - BaseAPI (0.2.1)
+  - CrowdinSDK (1.4.3):
+    - CrowdinSDK/Core (= 1.4.3)
+    - CrowdinSDK/CrowdinProvider (= 1.4.3)
+  - CrowdinSDK/Core (1.4.3):
+    - CrowdinSDK/CrowdinFileSystem
+  - CrowdinSDK/CrowdinAPI (1.4.3):
+    - BaseAPI (~> 0.2.1)
+    - CrowdinSDK/Core
+  - CrowdinSDK/CrowdinFileSystem (1.4.3)
+  - CrowdinSDK/CrowdinProvider (1.4.3):
+    - CrowdinSDK/Core
+    - CrowdinSDK/CrowdinAPI
+    - CrowdinSDK/CrowdinFileSystem
+
+DEPENDENCIES:
+  - CrowdinSDK
+
+SPEC REPOS:
+  trunk:
+    - BaseAPI
+    - CrowdinSDK
+
+SPEC CHECKSUMS:
+  BaseAPI: 7a3abac9fa1e19147a5c87dcfbb1829a584cd1ca
+  CrowdinSDK: 6b21e2275d88aa52f246d5c25ac3b5fef6bb2fce
+
+PODFILE CHECKSUM: 00b63d76e3314978fdbbf9bbb167dd2116a67fce
+
+COCOAPODS: 1.11.2
