@@ -1,0 +1,3 @@
+files:
+  - source: CrowdIInTestOverTheAirTranslation/CrowdIInTestOverTheAirTranslation/Localizable.strings
+    translation: CrowdIInTestOverTheAirTranslation/CrowdIInTestOverTheAirTranslation/%osx_locale%.strings
