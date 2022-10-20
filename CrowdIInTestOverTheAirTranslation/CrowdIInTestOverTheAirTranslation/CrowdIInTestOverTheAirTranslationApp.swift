@@ -24,7 +24,7 @@ struct CrowdIInTestOverTheAirTranslationApp: App {
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
 
-        let crowdinProviderConfig = CrowdinProviderConfig(hashString: "e-ec7e4cbf0c30df68fd9e3b34s8",
+        let crowdinProviderConfig = CrowdinProviderConfig(hashString: "bad86ab525d24c2e345bfd97600",
           sourceLanguage: "en")
         let crowdinSDKConfig = CrowdinSDKConfig.config().with(crowdinProviderConfig: crowdinProviderConfig)
             .with(debugEnabled: true)
